@@ -192,13 +192,44 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     return Container(
       width: 65 * SizeConfig.widthMultiplier,
       decoration: BoxDecoration(
-          color: AppTheme.waterMelon,
-          image: DecorationImage(
-              alignment: alignAnim.value,
-              image: NetworkImage(
-                "https://images.wallpapersden.com/image/download/valorant-game-team_bGZnbGeUmZqaraWkpJRmbmdlrWZlbWU.jpg",
-              ),
-              fit: BoxFit.cover)),
+        color: AppTheme.white,
+        // image: DecorationImage(
+        //     alignment: alignAnim.value,
+        //     image: NetworkImage(
+        //       "https://images.wallpapersden.com/image/download/valorant-game-team_bGZnbGeUmZqaraWkpJRmbmdlrWZlbWU.jpg",
+        //     ),
+        //     fit: BoxFit.cover)
+      ),
+      child: Column(
+        children: [
+          Image.network(
+              "https://st4.depositphotos.com/35426512/40205/v/950/depositphotos_402050006-stock-illustration-logo-valorant-shooter-game-symbol.jpg"),
+          Spacer(),
+          Padding(
+            padding: EdgeInsets.symmetric(
+                horizontal: 4 * SizeConfig.heightMultiplier,
+                vertical: 4 * SizeConfig.widthMultiplier),
+            child: RichText(
+                text: TextSpan(
+                    text: "Credits : ",
+                    style: TextStyle(
+                        fontFamily: 'Coolvetica',
+                        fontSize: 2.5 * SizeConfig.textMultiplier,
+                        color: AppTheme.burnham,
+                        fontWeight: FontWeight.w600),
+                    children: [
+                  TextSpan(
+                    text: "valorant-api.com",
+                    style: TextStyle(
+                        fontFamily: 'Coolvetica',
+                        fontSize: 2 * SizeConfig.textMultiplier,
+                        color: AppTheme.jasper,
+                        fontWeight: FontWeight.w500),
+                  )
+                ])),
+          )
+        ],
+      ),
     );
   }
 }
