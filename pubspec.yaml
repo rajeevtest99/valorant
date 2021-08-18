@@ -1,0 +1,40 @@
+name: valorant
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  video_player: ^2.1.12
+  shimmer: ^2.0.0
+  lottie: ^1.1.0
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  awesome_notifications: ^0.0.6+10
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Abeeze
+      fonts:
+        - asset: fonts/abeeze_reg.ttf
+    - family: Coolvetica
+      fonts:
+        - asset: fonts/coolvetica_reg.ttf
