@@ -208,7 +208,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
           Padding(
             padding: EdgeInsets.symmetric(
                 horizontal: 4 * SizeConfig.heightMultiplier,
-                vertical: 4 * SizeConfig.widthMultiplier),
+                vertical: 6 * SizeConfig.widthMultiplier),
             child: RichText(
                 text: TextSpan(
                     text: "Credits : ",
