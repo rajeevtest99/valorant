@@ -13,6 +13,8 @@ A cool app that showcases about the details of valorant.
 
 ![](github_display/agents.png) ![](github_display/maps.png) ![](github_display/weapons.gif)
 
+<img src="github_display/agents.png" width = "1080" height = "1920">
+
 ## My motto for this app
 
 I wanted to explore more about flutter and other cool packages. Although we should not rely much on packages, I tried to minimize them as low as possible.
