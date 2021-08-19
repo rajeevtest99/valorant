@@ -11,9 +11,11 @@ A cool app that showcases about the details of valorant.
 - :milky_way: shimmer - an interactive loading package for cool looking loading indicators
 - :bar_chart: lottie - an another cool package for displaying animtions using lottie files
 
-![](github_display/agents.png) ![](github_display/maps.png) ![](github_display/weapons.gif)
+![](github_display/agents.png)
 
-<img src="github_display/agents.png" width = "1080" height = "1920">
+![](github_display/maps.png)
+
+![](github_display/weapons.gif)
 
 ## My motto for this app
 
